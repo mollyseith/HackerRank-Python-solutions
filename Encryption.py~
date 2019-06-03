@@ -3,8 +3,6 @@
 #Constraints: 1 <= s <= 81, s is comprised only of chars in range ascii[a-z]
 #Output: print the encoded message on one line as described
 
-#!/bin/python3
-
 import math
 
 s = list(input().strip())
