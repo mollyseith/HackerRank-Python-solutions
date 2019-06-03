@@ -1,0 +1,18 @@
+#Extra Long Factorials
+#Input: input consists of a single integer n
+#Constraints: 1 <= n <= 100
+#Output: print the factorial of n
+
+#!/bin/python3
+
+import sys
+
+n = int(input().strip())
+
+def factor(n):
+    if(n==1):
+        return 1
+    product = n*factor(n-1)
+    return product
+
+print (factor(n))
